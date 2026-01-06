@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: kammana/gha-java-app:54736a4
+          image: kammana/java-app-jenkins:afd2a2b
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
