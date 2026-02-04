@@ -1,11 +1,6 @@
 pipeline{
     agent any
     stages{
-        stage("Code Checkout"){
-            steps{
-                git branch: 'main', credentialsId: 'github-creds', url: 'https://github.com/javahometech/java-app-jenkins'
-            }
-        }
         stage("Maven Build"){
             steps{
                 sh 'mvn clean package'
