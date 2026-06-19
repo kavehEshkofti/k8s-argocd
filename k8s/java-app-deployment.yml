@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: kavehesh/java-app-ci:f41c884
+          image: kavehesh/java-app-ci:82cc53f
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
